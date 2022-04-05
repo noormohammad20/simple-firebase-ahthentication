@@ -48,7 +48,7 @@ function App() {
     <div className="App">
 
       {
-        user.email ? <button onClick={handleSignOut}>Sign Out</button>
+        user.uid ? <button onClick={handleSignOut}>Sign Out</button>
           :
           <>
             <button onClick={handleGoogleSignIn}>Google Sign-In</button>
